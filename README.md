@@ -7,17 +7,21 @@
 
 下载并复制`custom_components/ke_qi_tts`文件夹到HomeAssistant根目录下的`custom_components`文件夹
 
+```
 tts:
   - platform: ke_qi_tts
     language: zh
     url: http://www.keqi.server:5000/tts （www.keqi.server替换成KEQI TTS SERVERD的ip）
+```
 
 ## 使用范例
 
+```
 service: tts.ke_qi_tts_say
 data:
   entity_id: media_player.keqiketing
   message: 今天天气真好啊
+```
 
 ## 欢迎加入知识星球或者QQ群讨论，知识星球里面提供项目的模型文件、相关资料以及国内的加速镜像文件。
 
