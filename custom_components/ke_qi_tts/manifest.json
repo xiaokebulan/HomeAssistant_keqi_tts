@@ -1,0 +1,10 @@
+{
+  "domain": "ke_qi_tts",
+  "name": "KEQI TTS",
+  "version": "0.0.1",
+  "documentation": "",
+  "issue_tracker": "",
+  "requirements": [],
+  "codeowners": ["@KEQI"],
+  "iot_class": "local_push"
+}

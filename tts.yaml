@@ -1,0 +1,4 @@
+tts:
+  - platform: ke_qi_tts
+    language: zh
+    url: http://www.keqi.server:5000/tts
